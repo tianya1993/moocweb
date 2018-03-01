@@ -1,0 +1,24 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2018-02-10T04:57:14</property>
+    <property name="ide">Python</property>
+    <property name="ideVersion">2017.3.3.0.0</property>
+    <property name="modified">2018-02-10T05:12:24</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <attributes>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="4a404d" />
+        <option name="ERROR_STRIPE_COLOR" value="0" />
+      </value>
+    </option>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="fff737" />
+        <option name="ERROR_STRIPE_COLOR" value="baa8ff" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
