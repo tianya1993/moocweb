@@ -289,3 +289,8 @@ textarea {
         page-break-after: avoid;
     }
 }
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
