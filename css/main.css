@@ -634,19 +634,71 @@ textarea {
     background: #FFF;
     padding: 15px 15px;
 
+}
+
+.conent_list_right_info h2{
+    text-align: center;
+    font-weight: bold;
+    background: url("../img/type_bg.png") repeat-x;
+}
+.conent_list_right_info li{
+    line-height: 30px;
+    padding-left: 20px;
+    list-style: none;
+    background: url("../img/arrow.jpg") no-repeat;
+    border-bottom: 1px dotted #999999;
+}
+
+.page_list{
+    margin-top: 20px;
+    height:40px;
+    text-align:center;
+}
+.page_list a {
+    border:1px  solid #e8e8e8;
+    margin: 0px 2px;
+    padding:3px 8px;
+    font-size:11px;
+    text-decoration: none;
+    display:inline-block;
+
+}
+.page_list a:link, .page_list a:visited{
+    color:#000;
+}
+.page_list a:hover, .page_list a:active{
+    color:#FFFFFF;
+    background-color:#FF6600;
+}
+
+.page_list{
 
 
+}
+.conent_list_right_info a{
+    color: #000000;
+}
+
+.conent_list_right_info a:link,conent_list_right_info a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.conent_list_right_info a:hover,conent_list_right_info a:active{
+    text-decoration: none;
+    color: darkred;
+}
+
+
+
+
+.conent_list_right_info li span {
+    float: right;
 }
 .conent_list_right_info p{
     margin-top: 10px;
     text-indent: 2em;
     line-height: 30px;
     font-size: 15px;
-}
-.conent_list_right_info h2{
-    text-align: center;
-    font-weight: bold;
-    background: url("../img/type_bg.png") repeat-x;
 }
 .conent_list_right_span{
     text-align: center;

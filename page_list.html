@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>页码的制作</title>
+<style>
+/*在此定义相关CSS样式*/
+.page{
+    height:40px;
+    width:auto;
+    text-align:center;
+}
+.page a {
+    border:1px  solid #e8e8e8;
+    padding:3px 8px;
+    font-size:11px;
+    text-decoration: none;
+    display:inline-block;
+
+}
+.page a:link, .page a:visited{
+    color:#000;
+}
+.page a:hover, .page a:active{
+    color:white;
+    background-color:red;
+}
+
+</style>
+</head>
+
+<body>
+<!--在此制作页码的基本结构-->
+<div class="page">
+    <a href="#">首页</a><a href="#">&lt;&lt;</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">···
+</a><a href="#">&gt;&gt;</a><a href="#">尾页</a>
+
+
+</body>
+</html>
