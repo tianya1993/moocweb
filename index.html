@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>主页信息</title>
+        <title>慕课网企业首页设计</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,25 +13,87 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="js/setHomeSetFav.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/myfocus-2.0.4.min.js"></script><!--引入myFocus库-->
+	<script type="text/javascript" src="js/mf-pattern/mF_qiyi.js"></script>
+
+	<link rel="stylesheet" href="js/mf-pattern/mF_qiyi.css">
+        <script type="text/javascript" src="js/mf-pattern/mF_dleung.js"></script>
+
+	<link rel="stylesheet" href="js/mf-pattern/mF_dleung.css">
+<script type="text/javascript" src="js/mf-pattern/mF_ladyQ.js"></script>
+
+	<link rel="stylesheet" href="js/mf-pattern/mF_ladyQ.css">
+
+
+    <script type="text/javascript">
+    myFocus.set({
+    id:'boxID',//焦点图盒子ID
+    //pattern:'mF_qiyi',//风格应用的名称
+    pattern:'mF_ladyQ',
+    time:2,//切换时间间隔(秒)
+    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+    width:1000,//设置图片区域宽度(像素)
+    height:320,//设置图片区域高度(像素)
+    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+});
+    </script>
+
     </head>
     <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+        <div class="header">
+            <div class="header_mid">
+                <ul>
+                    <li><a href="./connect.html">联系我们</a></li>
+                    <li><a href="./connect.html">设为首页</a></li>
+                    <li><a href="./connect.html">加入收藏</a></li>
+                </ul>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+            </div><!--header_mid over-->
+        </div><!-- header  over -->
+        <div class="main">
+            <div class="logo">
+                <div class="logo_left"><img src="./img/logo.jpg"  width="300px" height="140px" alt="mooc_logo"/></div>
+                <div class="logo_right"><img src="./img/tel.jpg"/>24小时服务热线：<span>123-456-789</span></div>
+
+
+            </div><!--logo结束-->
+
+            <div class="nav">
+                <div class="nav_left">
+                    <ul>
+                        <li><a href="./index.html">首页</a></li>
+                        <li><a href="./index.html">慕课简介</a></li>
+                        <li><a href="./index.html">新闻动态</a></li>
+                        <li><a href="./index.html">课程中心</a></li>
+                        <li><a href="./index.html">在线互动</a></li>
+                        <li><a href="./index.html">加入我们</a></li>
+                    </ul>
+
+                </div><!--nav 结束-->
+                <div class="nav_right"><input type="search" name="搜索框" class="search_text"></div>
+            </div>
+            <div class="banner" id="boxID" >
+			<div class="pic">
+			<ul>
+				<li><image src="./img/ad4.jpg" alt="慕女神喊你来表白!"  ></li>
+				<li> <image src="./img/ad2.jpg" alt="Web前端攻城狮" > </li>
+				<li><image src="./img/ad3.jpg" alt="慕课活动" ></li>
+                <li><image src="./img/mooc4.jpg" alt="慕课活动" ></li>
+                <li> <image src="./img/baner4.jpg" alt="Web前端攻城狮" > </li>
+				<li><image src="./img/banner5.jpg" alt="慕课活动" ></li>
+                <li><image src="./img/banner6.jpg" alt="慕课活动" ></li>
+			</ul>
+			</div>
+		</div><!--banner 结束-->
+            <div class="conent">
+                测试
+
+
+            </div>
+
+        </div><!--div main 结束 width  1000px-->
+
     </body>
 </html>

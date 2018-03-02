@@ -293,4 +293,134 @@ textarea {
     margin: 0px;
     padding: 0px;
 
+
+}
+.header{
+    width: 100%;
+    background: #999999;
+    height: 27px;
+}
+.header_mid{
+    width: 1000px;
+    height: 27px;
+    line-height: 27px;
+    font-family: 楷体;
+    font-size: 13px;
+    margin: 0px  auto;
+}
+
+.header_mid li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 27px;
+    float: right;
+	list-style-image:url("../img/arrow.jpg");
+	width: 70px;;
+}
+.header_mid a:link, .header_mid a:visited {
+	font-size: 13px;
+	color: #000;
+	text-decoration: none;
+}
+.header_mid a:hover, .header_mid a:active {
+	font-size: 13px;
+	color: #FFF;
+	text-decoration: none;
+}
+.main{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #F5F5F5;
+}
+.logo{
+    height:140px;
+    background: #FFFFFF;
+    /*border: 1px solid chartreuse;*/
+}
+.logo_left{
+    float: left;
+}
+.logo_right{
+    float: right;
+    width:380px;
+    height:30px;
+    margin-top:92px;
+    font-size: 15px;
+    color:#555555;
+    line-height:30px ;
+
+}
+.logo_right img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.logo_right span{
+    color: darkred;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.nav{
+    height: 37px;
+    background: url("../img/nav_bg.jpg");
+    border-radius: 3px;
+}
+
+
+
+.nav_left li{
+    width: 80px;
+    list-style: none;
+    float: left;
+    line-height: 37px;
+    text-align: center;
+
+
+}
+.nav_left{
+    float: left;
+
+}
+.nav_left a:link , .nav_left a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+.nav_left a:hover , .nav_left  a:active{
+    color: #FF0;
+    text-decoration: none;
+    font-size: 16px;
+    width: 80px;
+    display: block;
+    background: darkred;
+    border-radius: 3px;
+}
+
+.nav_right{
+    width: 330px;
+    float: right;
+    height: 37px;
+    line-height: 37px;
+
+
+}
+.search_text {
+    background: url("../img/search.jpg") no-repeat right center;
+    background-color: #FFF;
+    height: 27px;
+    width: 230px;
+     border: 1px  solid  #FFFFFF;
+    border-radius: 2px;
+}
+.banner {
+	height: 320px;
+	margin-top: 5px;
+	overflow: hidden;
+
+}
+.conent{
+    height: 280px;
+    margin-top:10px;
+    border: 1px  solid  #999999;
 }
