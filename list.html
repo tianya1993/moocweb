@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>慕课网企业首页设计</title>
+        <title>慕课网企业列表页</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,31 +13,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script type="text/javascript" src="js/setHomeSetFav.js" charset="utf-8"></script>
-	    <script type="text/javascript" src="js/myfocus-2.0.4.min.js"></script><!--引入myFocus库-->
-	    <script type="text/javascript" src="js/mf-pattern/mF_fancy.js"></script>
-
-	    <link rel="stylesheet" href="js/mf-pattern/mF_fancy.css">
-        <script type="text/javascript" src="js/mf-pattern/mF_dleung.js"></script>
-
-	    <link rel="stylesheet" href="js/mf-pattern/mF_dleung.css">
-        <script type="text/javascript" src="js/mf-pattern/mF_ladyQ.js"></script>
-
-	    <link rel="stylesheet" href="js/mf-pattern/mF_ladyQ.css">
 
 
-    <script type="text/javascript">
-    myFocus.set({
-    id:'boxID',//焦点图盒子ID
-    //pattern:'mF_qiyi',//风格应用的名称
-    pattern:'mF_fancy',
-    time:2,//切换时间间隔(秒)
-    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
-    width:1000,//设置图片区域宽度(像素)
-    height:320,//设置图片区域高度(像素)
-    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
-});
-    </script>
+
 
     </head>
     <body>
@@ -95,72 +73,50 @@
                 </div><!--nav 结束-->
                 <div class="nav_right"><input type="search" name="搜索框" class="search_text"></div>
             </div>
-            <div class="clear_both">
-            <div class="banner" id="boxID" >
+
+            <div class="list_banner" >
 			<div class="pic">
 			<ul>
-				<li><image src="./img/ad4.jpg"  ></li>
-				<li> <image src="./img/ad2.jpg" > </li>
-				<li><image src="./img/ad3.jpg" ></li>
-                <li><image src="./img/mooc4.jpg" ></li>
-                <li> <image src="./img/banner5.jpg" > </li>
-				<li><image src="./img/banner6.jpg" ></li>
-                <li><image src="./img/banner8.jpg"></li>
+				<li><image src="./img/ad4.jpg" width="1000px" height="240px"></li>
 			</ul>
 			</div>
 		</div><!--banner 结束-->
-            <div class="conent">
-                <div class="conent_left">
-                    <div class="title"><h2 class="title_left">新闻资讯</h2><span class="title_right"><a href="#">More&gt;&gt;</a></span></div><!--标题结束-->
-                    <div class="info_list">
-                        <ul>
-                            <li>信息技术中心发展大数据战略<span>2017-12-24</span></li>
-                            <li>教学单位要做好信息教育工作<span>2017-12-24</span></li>
-                            <li>甘肃省持续降温部分路面已经结冰<span>2017-12-24</span></li>
-                            <li>浙江省杭州市西湖美景<span>2017-12-24</span></li>
-                            <li>杭州保姆纵火案继续开庭<span>2017-12-24</span></li>
-                            <li>AI人工智能引导科技发展高潮<span>2017-12-24</span></li>
-                            <li>阿里和腾讯投资万达<span>2017-12-24</span></li>
-                            <li><a href="#">【慕客访谈 用户篇】屌丝在路上<span>2018-02-17</span></a></li>
+            <div class="conent_list">
+                <div class="conent_list_left">
+                    <h2>新闻中心</h2>
+                    <ul>
+                        <li><a href="#">媒体资讯</a></li>
+                        <li><a href="#">图片新闻</a></li>
+                        <li><a href="#">部门团建</a></li>
+                        <li><a href="#">行业发展</a></li>
+                        <li><a href="#">资源下载</a></li>
+                        <li><a href="#">沙龙资讯</a></li>
+                        <li><a href="#">精彩视频</a></li>
+                    </ul>
 
-		                </ul>
-                    </div>
                 </div><!--div_left-->
-                <div class="conent_mid">
-                    <div class="title"><h2 class="title_left">活动列表</h2><span class="title_right" ><a href="#">More&gt;&gt;</a></span></div>
-                    <div class="info_list">
-                        <ul>
-                            <li>信息技术中心发展大数据战略<span>2017-12-24</span></li>
-                            <li>教学单位要做好信息教育工作<span>2017-12-24</span></li>
-                            <li>甘肃省持续降温部分路面已经结冰<span>2017-12-24</span></li>
-                            <li>浙江省杭州市西湖美景<span>2017-12-24</span></li>
-                            <li>杭州保姆纵火案继续开庭<span>2017-12-24</span></li>
-                            <li>AI人工智能引导科技发展高潮<span>2017-12-24</span></li>
-                            <li>阿里和腾讯投资万达<span>2017-12-24</span></li>
-                            <li><a href="#">【慕客访谈 用户篇】屌丝在路上<span>2018-02-17</span></a></li>
+                <div class="conent_list_right">
+                    <div class="conent_list_right_info">
+                        <h2>新闻中心</h2>
+                        <h3>《小苹果》</h3>
+                        <span class="conent_list_right_span">发布人：彭安祥  发布时间：2018年3月2日 编辑：admin</span>
+                        <p>我种下一颗种子 终于长出了果实， 今天是个伟大日子！ 摘下星星送给你，拽下月亮送给你。 让太阳每天为你升起,
+                变成蜡烛燃烧自己, 只为照亮你! 把我一切都献给你, 只要你欢喜 .你让我每个明天都变得有意义! 生命虽短爱你永远,不离不弃 .
+                你是我的小呀小苹果儿,怎么爱你都不嫌多,红红的小脸儿温暖我的心窝.点亮我生命的火 火火火火 !</p>
+                    <h3>二级下拉式菜单</h3>
+                <p>二级下拉式菜单在各大学校网站，电商类网站，新闻类网站等大型？网站很常见，那么它的实现原理是什么呢？
 
-		                </ul>
+                学习了Web前端开发的知识后，我们是可以实现这样的功能的。复杂的都是从基础效果上添加做出来的，原理和流程
+
+                还是一样的，今天开始做一些简单的二级下拉式菜单。</p>
+
+
                     </div>
                 </div><!--div_mid-->
-                <div class="conent_right">
-                    <div class="title"><h2 class="title_left">行业动态</h2><span class="title_right"><a href="#">More&gt;&gt;</a></span></div>
-                     <div class="info_list">
-                         <ul>
-                            <li>信息技术中心发展大数据战略<span>2017-12-24</span></li>
-                            <li>教学单位要做好信息教育工作<span>2017-12-24</span></li>
-                            <li>甘肃省持续降温部分路面已经结冰<span>2017-12-24</span></li>
-                            <li>浙江省杭州市西湖美景<span>2017-12-24</span></li>
-                            <li>杭州保姆纵火案继续开庭<span>2017-12-24</span></li>
-                            <li>AI人工智能引导科技发展高潮<span>2017-12-24</span></li>
-                            <li>阿里和腾讯投资万达<span>2017-12-24</span></li>
-                            <li><a href="#">【慕客访谈 用户篇】屌丝在路上<span>2018-02-17</span></a></li>
-
-		                </ul>
-                     </div>
-                </div><!--div_right-->
 
 
-            </div></div>
+
+            </div>
         </div><!--div main 结束 width  1000px-->
         <div class="copyright">
             <div class="copyright_mid">
